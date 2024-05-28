@@ -1,0 +1,31 @@
+.button {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #000000;
+    -fx-border-color: #000000;
+    -fx-border-width: 2px;
+}
+.title-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+.content-label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #666666;
+}
+
+VBox {
+    -fx-background-color: #f9f9f9;
+    -fx-padding: 20px;
+    -fx-spacing: 10px;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+}
+.transparent-background {
+    -fx-background-color: rgba(255, 255, 255, 0.5); /* Прозрачный белый фон */
+    -fx-border-color: #000000; /* Черный цвет обводки */
+    -fx-border-width: 2px; /* Толщина обводки */
+    -fx-border-style: solid; /* Стиль обводки (сплошной) */
+    /* Дополнительные свойства CSS, если необходимо */
+}
